@@ -31,7 +31,7 @@ git pull
 ## 五、简单的使用流程
 **当想要用别人项目时**：  
 搜索、下载 ZIP、解压、看 READM运行即可
-**自己想存自己代码时**：  
+**自己想存自己代码时**：    
 GitHub 建仓库、打开 Git 、按顺序输 4 行命令上传即可  
 ***
 学习资源来自[B站视频](https://www.bilibili.com/video/BV1PwiMBDEF8?)和[github指南](https://zhuanlan.zhihu.com/p/337959303)
