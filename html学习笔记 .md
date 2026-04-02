@@ -1,12 +1,12 @@
 ### html骨架
-    <!DOCTYPE html>
-    <html lang="zh-CN">
-    <head>
+    <!DOCTYPE html>（声明，不属于标签层级）
+    <html lang="zh-CN">（根标签，包裹所有内容）
+    <head>> （头部，元数据，不显示）
     <meta charset="UTF-8">
     <title>标题</title>
     </head>
     <body>
-        网页内容
+        网页内容 （主体，所有可视内容）
     </body>
     </html>
 ### HTML 注释与排版标签
