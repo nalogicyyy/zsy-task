@@ -155,6 +155,29 @@ border: 1px solid #000;
 margin: 0 auto; （水平居中）
 标准盒子总宽度 = width + padding + border
 ```
+### css边框
+border-style：
+dotted：定义点状边框
+dashed：定义虚线边框
+solid：定义实线边框
+double：定义双线边框
+groove：定义三维沟槽边框。效果取决于 border-color 的值。
+ridge：定义三维脊状边框。效果取决于 border-color 的值。
+inset：定义三维嵌入边框。效果取决于 border-color 的值。
+outset：定义三维突出边框。效果取决于 border-color 的值。
+none：定义无边框。
+hidden：定义隐藏边框。
+```
+{设置各边：
+    border-top-style:dotted;
+    border-right-style:solid;
+    border-bottom-style:dotted;
+    border-left-style:solid;
+}
+```
+border-width 属性为边框指定宽度
+border-color属性用于设置边框的颜色
+
 ### 元素显示模式
 ```
 1. 块级元素（独占一行）
@@ -273,5 +296,36 @@ div {
   animation: move 1s infinite;
 }
 ```
+### 继承
+**会继承的属性（大部分和文本相关）**
+这些属性天生就会 “遗传” 给子元素：
+color（文字颜色）
+font-family（字体）、font-size（字号）、font-weight（加粗）
+line-height（行高）、text-align（文本对齐）
+list-style（列表样式）
+visibility（可见性）
+**不会继承的属性（大部分和布局、盒子相关）**
+这些属性只作用在当前元素，不会传给子元素，你截图里的 margin 就属于这类：
+margin（外边距）、padding（内边距）、border（边框）
+width/height（宽高）
+background（背景）
+position（定位）、float（浮动）
+display（显示模式）
 
+### display 全属性 超直白解释（一秒看懂）
+**基础布局**
+block：独占一行，像方块一样竖着排，可以设置宽高、内外边距
+inline：只能放文字、图片、链接，不能设置宽高、上下内外边距
+inline-block：像文字一样排列，但可以设置宽高、边距，最常用！
+**弹性布局**
+flex：父元素用，让子元素自动横向 / 纵向排列，超级好用
+inline-flex：和 flex 一样排列，但自身不独占一行
+**网格布局**
+grid：父元素用，像表格一样分格子布局，适合复杂页面
+inline-grid：和 grid 一样分栏，但自身不独占一行
+**清除浮动、稳定布局**
+flow-root：创建稳定块容器，自动清除内部浮动，不影响外部布局
+**显示 / 隐藏**
+none：直接隐藏元素，不占位置、不显示、不占空间
+contents：只保留子元素，自身容器消失，像没有这个标签一样
 

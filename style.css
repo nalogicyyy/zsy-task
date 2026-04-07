@@ -1,0 +1,94 @@
+.datu{
+    width:100%;
+    height:200px
+}
+.datu img{
+    width:100%;
+    height:200px;
+}
+.header {
+  width: 100%;
+  height: 80px; 
+  /* Flex 布局*/
+  display:flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 20px; 
+  box-sizing: border-box; /* 保证padding不会撑大盒子 */
+  background-color:antiquewhite ;
+}
+.name h3 {
+  margin: 0;
+  font-size: 24px;
+}
+.nav a {
+  /* 1. 去掉默认下划线 */
+  text-decoration: none;
+  /* 2. 统一文字颜色 */
+  color: hwb(0 16% 72%);
+  /* 3. 调整字体大小，更协调 */
+  font-size: 18px;
+  /* 4. 给每个链接加间距，不挤在一起 */
+  margin-left: 20px;
+  /* 5. 加过渡动画，hover更丝滑 */
+  transition: all 0.3s ease;
+  background-color: lch(70.01% 61.59 74.78); 
+  font-family:PingFang SC;
+  border-radius: 10px;
+ padding: 5px 10px;
+}
+.nav a:hover {
+  color: oklch(21.818% 0.03908 73.207);
+  text-decoration: underline;
+}
+.table{
+    background-color: hsl(48, 67%, 82%);
+}
+/* 让喜好区域里的 图片 和 文字 全部自动同行排列 */
+.imgg {
+  display: flex;        /* 同行 */
+  justify-content: center; /* 居中 */
+  gap: 40px;            /* 图片之间的距离 */
+  text-align: center;   /* 图片下面的文字居中 */
+  flex-wrap: wrap;      /* 自动换行 */
+}
+
+#hobby img {
+  width: 180px;  
+  height: 160px;
+  object-fit: cover; /* 不变形 */
+  border-radius: 10px; /* 圆角 */
+  display: block;  /* 让文字在下面 */
+  margin-bottom: 8px;/*文字和图片之间的间距*/
+}
+#hobby h2{
+     display: block; 
+}
+/* 给整个 body 设置背景 */
+body {
+  background-color:antiquewhite; 
+}
+
+/* 标签容器：用flex做自适应布局 */
+.hhh {
+  display: inline-block;
+}
+
+/* 标签核心样式：圆角卡片+悬浮动效 */
+.hhh .tag {
+  padding: 10px 20px;
+  background: #c9a644;
+  border:  solid hsl(28, 89%, 22%);
+  border-radius: 20px; /* 圆角 */
+  font-size: 16px;
+  color: hsl(34, 96%, 18%);
+  transition: all 0.3s ease; /* 悬浮过渡动画 */
+  cursor: default;/*使箭头保持原样*/
+  margin:12px;
+}
+
+/* 悬浮效果：鼠标放上去变色放大 */
+.hhh .tag:hover {
+  background: #3498db;
+  color: white;
+  transform: translateY(-3px); /* 轻微上浮 */}
