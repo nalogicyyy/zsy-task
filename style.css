@@ -80,7 +80,6 @@ body {
   background: #c9a644;
   border:  solid hsl(28, 89%, 22%);
   border-radius: 20px; /* 圆角 */
-  font-size: 16px;
   color: hsl(34, 96%, 18%);
   transition: all 0.3s ease; /* 悬浮过渡动画 */
   cursor: default;/*使箭头保持原样*/
@@ -92,3 +91,9 @@ body {
   background: #3498db;
   color: white;
   transform: translateY(-3px); /* 轻微上浮 */}
+#dream p{
+  background-color: #c9a644;
+   border-radius: 12px;
+   padding: 10px 20px;
+   cursor: default;
+}
