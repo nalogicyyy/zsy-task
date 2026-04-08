@@ -9,7 +9,7 @@
 - [git学习笔记](./git学习笔记.md)
 - [hello.md](./hello.md)
 - [更简便的提交方式](./更简单的提交方式.md)
-- [html笔记](./html学习笔记%20.md)
+- [html笔记](./html学习笔记.md)
 - [css学习笔记](./CSS学习笔记.md)
 - [网页编后感](./网页编后感.md)
 - [My other though](./My%20other%20though.md)
