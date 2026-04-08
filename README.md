@@ -2,7 +2,7 @@
 ## 📚 学习笔记导航
 - [Markdown 完整学习笔记](./markdown学习笔记.md)
 - [Markdown 练习文档](./markdown练习文档.md)
-- [github 完整学习笔记](../笔记.md/github学习笔记%20.md)
+- [github 完整学习笔记](../zsy-task/github学习笔记.md)
 - [考核中的思考与感悟](./考核中的思考与感悟.md)
 - [问题解决记录](./问题解决记录.md)
 - [考核一文档](./考核一文档.md)  
@@ -12,7 +12,7 @@
 - [html笔记](./html学习笔记.md)
 - [css学习笔记](./CSS学习笔记.md)
 - [网页编后感](./网页编后感.md)
-- [My other though](./My%20other%20though.md)
+- [My other though](./我的其他想法.md)
 ## ✨ 仓库说明   
 1. 存放日常编程&工具学习笔记
 2. 所有文件可直接点击链接打开查看
