@@ -9,12 +9,12 @@
 - [git学习笔记](./git学习笔记.md)
 - [hello.md](./hello.md)
 - [更简便的提交方式](./更简单的提交方式.md)
-- [html笔记](./html学习笔记.md)
-- [css学习笔记](./CSS学习笔记.md)
-- [网页编后感](./网页编后感.md)
+- [html笔记](./html学习笔记.记.md)
+- [网页编后感](./网页编后感.mdmd)
+- [css学习笔记](./CSS学习笔)
 - [My other though](./我的其他想法.md)
 - [wzfk.html](../Myhtml/aaa/wzfk.html)
 - [wzfk.css](../Myhtml/aaa/wzfkstyle.css)
 ## ✨ 仓库说明   
-1. 存放日常编程&工具学习笔记
+1. 存放日常编程&工具学习notebook
 2. 所有文件都可直接点击链接打开查看
