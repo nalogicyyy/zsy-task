@@ -4,6 +4,7 @@
 }
 .datu img{
     width:100%;
+    object-fit: cover;
     height:auto;
 }
 .header {
@@ -35,14 +36,20 @@
   background-color: lch(70.01% 61.59 74.78); 
   font-family:PingFang SC;
   border-radius: 10px;
- padding: 5px 10px;
+  padding: 5px 10px;
 }
 .nav a:hover {
   color: oklch(21.818% 0.03908 73.207);
   text-decoration: underline;
+  text-underline-offset: 6px; /* 下划线和文字的距离*/
 }
 .table{
     background-color: hsl(48, 67%, 82%);
+}
+.table:hover{
+  transform-origin: left top;/*左上不动*/
+  transform:scale(1.2);
+  transition: 0.4s;
 }
 /* 让喜好区域里的 图片 和 文字 全部自动同行排列 */
 .imgg {
@@ -58,11 +65,12 @@
   height: 160px;
   object-fit: cover; /* 不变形 */
   border-radius: 10px; /* 圆角 */
-  display: block;  /* 让文字在下面 */
+  /*display: block;  让文字在下面 */
   margin-bottom: 8px;/*文字和图片之间的间距*/
 }
-#hobby h2{
-     display: block; 
+#hobby img:hover {
+  transform: scale(1.2);
+  transition: all 0.4s ease;
 }
 /* 给整个 body 设置背景 */
 body {
