@@ -16,5 +16,5 @@
 - [wzfk.html](../Myhtml/aaa/wzfk.html)
 - [wzfk.css](../Myhtml/aaa/wzfkstyle.css)
 ## ✨ 仓库说明   
-1. 存放日常编程&工具学习notebook
+1. 存放日常编程&工具学习
 2. 所有文件都可直接点击链接打开查看
