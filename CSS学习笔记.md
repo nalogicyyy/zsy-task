@@ -305,7 +305,7 @@ line-height（行高）、text-align（文本对齐）
 list-style（列表样式）  
 visibility（可见性）  
 **不会继承的属性（大部分和布局、盒子相关）**  
-这些属性只作用在当前元素，不会传给子元素，你截图里的 margin 就属于这类：  
+这些属性只作用在当前元素，不会传给子元素：  
 margin（外边距）、padding（内边距）、border（边框）  
 width/height（宽高）  
 background（背景）  
